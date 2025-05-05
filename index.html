@@ -11,9 +11,25 @@
   </body>
 </html>
 
-<script>
+<!-- <script>
   $(document).ready(function () {
     $("#app").append("🚀");
     console.log("hehe");
   });
+</script> -->
+
+<script type="text/javascript">
+  const app = document.getElementById("app");
+
+  // create new element h1
+  const header = document.createElement("h1");
+
+  // create node for h1
+  const headerContent = document.createTextNode("Learning React 🚀");
+
+  // append text into h1
+  header.appendChild(headerContent);
+
+  // save h1 into div app
+  app.appendChild(header);
 </script>
