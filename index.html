@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Learning DOM</title>
@@ -9,3 +10,10 @@
     <div id="app"></div>
   </body>
 </html>
+
+<script>
+  $(document).ready(function () {
+    $("#app").append("🚀");
+    console.log("hehe");
+  });
+</script>
